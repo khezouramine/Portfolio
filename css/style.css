@@ -148,7 +148,6 @@ nav {
     left: -10%;
     width: 400px;
     height: 400px;
-    background: radial-gradient(circle, var(--gradient-1) 0%, transparent 70%);
     opacity: 0.2;
     animation: float 8s ease-in-out infinite reverse;
 }
@@ -173,6 +172,7 @@ nav {
     color: rgb(255, 255, 255);
     font-size: 0.85rem;
     font-weight: 500;
+    margin-top: 4rem;
     margin-bottom: 2rem;
     animation: fadeInUp 0.8s ease;
 }
@@ -228,15 +228,16 @@ nav {
 }
 
 .btn-primary {
-    background: linear-gradient(135deg, var(--gradient-1), var(--gradient-2));
-    color: white;
-    box-shadow: 0 10px 30px rgba(233, 69, 96, 0.3);
+    background: transparent;
+    color: var(--text);
+    border: 2px solid var(--card-border);
+}
+.btn-primary:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+    transform: translateY(-3px);
 }
 
-.btn-primary:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 15px 40px rgba(233, 69, 96, 0.4);
-}
 
 .btn-secondary {
     background: transparent;
