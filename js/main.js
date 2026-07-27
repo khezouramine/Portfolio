@@ -72,8 +72,23 @@ const projects = [
         ]
     },
     {
-        title: "Redesign Airbnb",
+        title: "Design des pages",
         tag: "Redesign Web",
+        description: "Conception UI/UX d'une application de trading pour Lotus Capital, une société marocaine spécialisée dans le trading propriétaire et les solutions FinTech.",
+        objective: "Conception d’une application de trading chez Lotus Capital.",
+        tools: ["Figma", "UX Analysis", "Web Design", "Information Architecture"],
+        color: "linear-gradient(135deg, #ff5a5f 0%, #fc642d 100%)",
+        images: [
+            { src: "img/sign in page.png", caption: "sign in page" },
+            { src: "img/dashboard 10.png", caption: "dashboard 10" },
+            { src: "img/Submit Prediction.png", caption: "Submit Prediction" },
+            { src: "img/Subscriptions & Billing.png", caption: "Subscriptions & Billing" }
+        ]
+    },
+
+    {
+        title: "Redesign Airbnb",
+        tag: "design",
         description: "Analyse d'une plateforme internationale complexe et proposition d'ameliorations centrees utilisateur tout en conservant l'identite visuelle distinctive de la marque.",
         objective: "Simplifier le parcours de reservation et ameliorer la decouverte des logements sur une plateforme internationale de location.",
         tools: ["Figma", "UX Analysis", "Web Design", "Information Architecture"],
