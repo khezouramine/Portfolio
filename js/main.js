@@ -71,7 +71,20 @@ const projects = [
             { src: "img/ecran bibioteque.png", caption: "Recherche" }
         ]
     },
-   
+    {
+        title: "Design des pages",
+        tag: "Redesign Web",
+        description: "Conception UI/UX d'une application de trading pour Lotus Capital, une société marocaine spécialisée dans le trading propriétaire et les solutions FinTech.",
+        objective: "Conception d’une application de trading chez Lotus Capital.",
+        tools: ["Figma", "UX Analysis", "Web Design", "Information Architecture"],
+        color: "linear-gradient(135deg, #ff5a5f 0%, #fc642d 100%)",
+        images: [
+            { src: "img/sign in page.png", caption: "sign in page" },
+            { src: "img/dashboard 10.png", caption: "dashboard 10" },
+            { src: "img/Submit Prediction.png", caption: "Submit Prediction" },
+            { src: "img/Subscriptions & Billing.png", caption: "Subscriptions & Billing" }
+        ]
+    },
 
     {
         title: "Redesign Airbnb",
